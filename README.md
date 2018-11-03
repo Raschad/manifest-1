@@ -4,13 +4,13 @@ navigate into desired directory
 
 initialize repo:
 
-    repo init -u https://github.com/LineageOS/android.git -b lineage-15.1
+    repo init -u https://github.com/AICP/platform_manifest.git -b o8.1
 
-build LineageOS
+build AICP 13.1 (Oreo)
 ---------------
 download manifest: 
 
-    curl https://raw.githubusercontent.com/115ek/manifest/master/amami.xml > /your_directory/.repo/local_manifests/amami.xml
+    curl https://raw.githubusercontent.com/raschad/manifest-1/master/honami.xml > /your_directory/.repo/local_manifests/honami.xml
 
 sync repo:
 
@@ -25,7 +25,7 @@ build TWRP
 ----------
 download manifest: 
 
-    curl https://raw.githubusercontent.com/115ek/manifest/master/amami_twrp.xml > /your_directory/.repo/local_manifests/amami_twrp.xml
+    curl https://raw.githubusercontent.com/Raschad/manifest-1/master/honami_twrp.xml > /your_directory/.repo/local_manifests/honami_twrp.xml
 
 sync repo:
 
@@ -36,6 +36,6 @@ build:
     . build/envsetup.sh
     lunch
 
-choose **lineage_amami-eng** here!
+choose **aicp_honami-eng** here!
     
     mka recoveryimage
