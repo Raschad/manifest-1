@@ -19,7 +19,7 @@ sync repo:
 build:
 
     . build/envsetup.sh
-    brunch amami
+    brunch honami
 
 build TWRP
 ----------
