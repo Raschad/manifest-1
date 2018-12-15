@@ -10,7 +10,7 @@ build AICP 13.1 (Oreo)
 ---------------
 download manifest: 
 
-    curl https://raw.githubusercontent.com/raschad/manifest-1/master/honami.xml > /your_directory/.repo/local_manifests/honami.xml
+    curl https://raw.githubusercontent.com/raschad/manifest-1/aex/aex_manifest.xml > /.repo/local_manifests/aex_manifest.xml
 
 sync repo:
 
