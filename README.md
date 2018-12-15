@@ -10,7 +10,7 @@ build AICP 13.1 (Oreo)
 ---------------
 download manifest: 
 
-    curl https://raw.githubusercontent.com/raschad/manifest-1/dot/dot_manifest.xml > /.repo/local_manifests/dot_manifest.xml
+    curl https://raw.githubusercontent.com/raschad/manifest-1/dot/dot_manifest.xml > ~dotos/.repo/local_manifests/dot_manifest.xml
 
 sync repo:
 
