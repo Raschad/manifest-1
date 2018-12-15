@@ -21,7 +21,7 @@ sync repo:
 ---------------
 download manifest: 
 
-    curl https://raw.githubusercontent.com/raschad/manifest-1/dot/dot_manifest.xml > ~dotos/.repo/local_manifests/dot_manifest.xml
+    curl https://raw.githubusercontent.com/raschad/manifest-1/dot/dot_manifest.xml > ~dotos/.repo/manifests/dot_manifest.xml
 
 sync repo:
 
