@@ -3,15 +3,15 @@ Usage
     
 Create folder
 
-    mkdir dotos
+    mkdir aosp
 
 Then
 
-    cd dotos
+    cd aosp
     
 initialize repo:
 
-    repo init -u git://github.com/DotOS/manifest.git -b dot-o
+    repo init -u https://github.com/PixelExperience/manifest -b oreo-mr1
     
 sync repo:
 
@@ -21,13 +21,13 @@ sync repo:
 ---------------
 download manifest: 
 
-    curl https://raw.githubusercontent.com/raschad/manifest-1/dot/dot_manifest.xml > ~/dotos/.repo/local_manifests/roomservice.xml
+    curl https://raw.githubusercontent.com/raschad/manifest-1/aosp/aosp_manifest.xml > ~/aosp/.repo/local_manifests/roomservice.xml
 
 sync repo:
 
     $ repo sync  -f --force-sync --no-clone-bundle
 
-build DotOS (Oreo)
+build AOSP (Oreo)
 build:
 
     . build/envsetup.sh
