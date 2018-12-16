@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-  <project name="Raschad/device_sony_honami" path="device/sony/honami" remote="github" revision="dotos" />
-  <project name="Raschad/device_sony_rhine-common" path="device/sony/rhine-common" remote="github" revision="o8.1" />
-  <project name="Raschad/device_sony_msm8974-common" path="device/sony/msm8974-common" remote="github" revision="o8.1" />
+  <project name="Raschad/device_sony_honami" path="device/sony/honami" remote="github" revision="aosp" />
+  <project name="Raschad/device_sony_rhine-common" path="device/sony/rhine-common" remote="github" revision="aosp" />
+  <project name="Raschad/device_sony_msm8974-common" path="device/sony/msm8974-common" remote="github" revision="aosp" />
   <project name="Raschad/kernel_sony_msm8974" path="kernel/sony/msm8974" remote="github" revision="o8.1" />
   <project name="LineageOS/android_device_sony_common" path="device/sony/common-caf" remote="github" revision="lineage-15.1" />
   <project name="omnirom/android_hardware_sony_thermanager" path="hardware/sony/thermanager" remote="github" revision="android-8.1" />
