@@ -6,11 +6,11 @@ initialize repo:
 
     repo init -u https://github.com/AICP/platform_manifest.git -b o8.1
 
-build AICP 13.1 (Oreo)
+build Arrow (Oreo)
 ---------------
 download manifest: 
 
-    curl https://raw.githubusercontent.com/raschad/manifest-1/aex2/aex_manifest.xml > /.repo/local_manifests/aex_manifest.xml
+    curl https://raw.githubusercontent.com/raschad/manifest-1/arrow/arrow_manifest.xml > /.repo/local_manifests/roomservice.xml
 
 sync repo:
 
@@ -20,6 +20,8 @@ build:
 
     . build/envsetup.sh
     brunch honami
+
+
 
 build TWRP
 ----------
