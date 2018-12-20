@@ -3,15 +3,15 @@ Usage
     
 Create folder
 
-    mkdir aosp
+    mkdir pix
 
 Then
 
-    cd aosp
+    cd pix
     
 initialize repo:
 
-    repo init -u https://github.com/PixelExperience/manifest -b oreo-mr1
+    repo init -u https://github.com/PixysOS/manifest -b pie
     
 sync repo:
 
@@ -21,7 +21,7 @@ sync repo:
 ---------------
 download manifest: 
 
-    curl https://raw.githubusercontent.com/raschad/manifest-1/aosp/aosp_manifest.xml > ~/aosp/.repo/local_manifests/roomservice.xml
+    curl https://raw.githubusercontent.com/raschad/manifest-1/pixys_pie/aosp_manifest.xml > ~/pix/.repo/local_manifests/pixys.xml
 
 sync repo:
 
