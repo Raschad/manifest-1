@@ -21,7 +21,7 @@ sync repo:
 ---------------
 download manifest: 
 
-    curl https://raw.githubusercontent.com/raschad/manifest-1/aosp/aosp_manifest.xml > ~/aosp/.repo/local_manifests/roomservice.xml
+    curl https://raw.githubusercontent.com/raschad/manifest-1/havoc-oreo/aosp_manifest.xml > ~/aosp/.repo/local_manifests/roomservice.xml
 
 sync repo:
 
