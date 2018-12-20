@@ -3,15 +3,15 @@ Usage
     
 Create folder
 
-    mkdir aosp
+    mkdir havoc
 
 Then
 
-    cd aosp
+    cd havoc
     
 initialize repo:
 
-    repo init -u https://github.com/PixelExperience/manifest -b oreo-mr1
+    repo init -u https://github.com/Havoc-OS/android_manifest.git -b oreo
     
 sync repo:
 
@@ -21,7 +21,7 @@ sync repo:
 ---------------
 download manifest: 
 
-    curl https://raw.githubusercontent.com/raschad/manifest-1/havoc-oreo/aosp_manifest.xml > ~/aosp/.repo/local_manifests/roomservice.xml
+    curl https://raw.githubusercontent.com/raschad/manifest-1/havoc-oreo/aosp_manifest.xml > ~/havoc/.repo/local_manifests/roomservice.xml
 
 sync repo:
 
