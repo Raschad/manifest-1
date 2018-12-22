@@ -11,4 +11,5 @@
   <project name="LineageOS/android_hardware_sony_macaddrsetup" path="hardware/sony/macaddrsetup" remote="github" revision="lineage-15.1" />
   <project name="LineageOS/android_hardware_sony_timekeep" path="hardware/sony/timekeep" remote="github" revision="lineage-15.1" />
   <project name="AICP/proprietary_vendor_sony" path="vendor/sony" remote="github" revision="o8.1" />
+  <project name="MoKee/android_prebuilts_snapdragon_llvm-3.8" path="prebuilts/snapdragon-llvm/toolchains/llvm-Snapdragon_LLVM_for_Android_3.8/prebuilt/linux-x86_64" remote="github" revision="mkn-mr1" />
 </manifest> 
