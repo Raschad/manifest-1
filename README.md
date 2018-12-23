@@ -4,13 +4,13 @@ navigate into desired directory
 
 initialize repo:
 
-    repo init -u https://github.com/AICP/platform_manifest.git -b o8.1
+    repo init -u git://github.com/AospExtended/manifest.git -b 9.x
 
 build AICP 13.1 (Oreo)
 ---------------
 download manifest: 
 
-    curl https://raw.githubusercontent.com/raschad/manifest-1/aex2/aex_manifest.xml > /.repo/local_manifests/aex_manifest.xml
+    curl https://raw.githubusercontent.com/raschad/manifest-1/aex-pie/aex_manifest.xml > /.repo/local_manifests/aex_manifest.xml
 
 sync repo:
 
