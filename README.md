@@ -10,7 +10,7 @@ build AICP 13.1 (Oreo)
 ---------------
 download manifest: 
 
-    curl https://raw.githubusercontent.com/raschad/manifest-1/nos/honami.xml > ~/nitrogen/.repo/local_manifests/roomservice.xml
+    curl https://raw.githubusercontent.com/raschad/manifest-1/rr-pie/honami.xml > ~/nitrogen/.repo/local_manifests/roomservice.xml
 
 sync repo:
 
