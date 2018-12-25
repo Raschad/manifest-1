@@ -12,6 +12,13 @@ download manifest:
 
     curl https://raw.githubusercontent.com/raschad/manifest-1/master/honami.xml > /your_directory/.repo/local_manifests/honami.xml
 
+
+build LOS 16.0 (pie)
+---------------
+download manifest: 
+
+    curl https://raw.githubusercontent.com/raschad/manifest-1/master/honami_lineage-16.0 > ~/los/.repo/local_manifests/roomservice.xml
+
 sync repo:
 
     $ repo sync
