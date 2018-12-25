@@ -21,7 +21,7 @@ download manifest:
 
 sync repo:
 
-    $ repo sync
+    repo sync
 
 build:
 
