@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-  <project name="Raschad/android_device_sony_honami" path="device/sony/honami" remote="github" revision="nos" />
-  <project name="AICP/device_sony_rhine-common" path="device/sony/rhine-common" remote="github" revision="o8.1" />
-  <project name="AICP/device_sony_msm8974-common" path="device/sony/msm8974-common" remote="github" revision="o8.1" />
-  <project name="AICP/kernel_sony_msm8974" path="kernel/sony/msm8974" remote="github" revision="o8.1" />
-  <project name="sonyxperiadev/boringssl-compat" path="external/sony/boringssl-compat" remote="github" revision="master" />
-  <project name="LineageOS/android_device_sony_common" path="device/sony/common-caf" remote="github" revision="lineage-15.1" />
-  <project name="LineageOS/android_device_qcom_common" path="device/qcom/common" remote="github" revision="lineage-15.1" />
-  <project name="LineageOS/android_hardware_sony_thermanager" path="hardware/sony/thermanager" remote="github" revision="lineage-15.1" />
-  <project name="LineageOS/android_hardware_sony_macaddrsetup" path="hardware/sony/macaddrsetup" remote="github" revision="lineage-15.1" />
-  <project name="LineageOS/android_hardware_sony_timekeep" path="hardware/sony/timekeep" remote="github" revision="lineage-15.1" />
-  <project name="Raschad/proprietary_vendor_sony-1" path="vendor/sony" remote="github" revision="nos" />
+  <project name="Raschad/device_sony_honami" path="device/sony/honami" remote="github" revision="nos-pie" />
+  <project name="AICP/device_sony_rhine-common" path="device/sony/rhine-common" remote="github" revision="p9.0" />
+  <project name="AICP/device_sony_msm8974-common" path="device/sony/msm8974-common" remote="github" revision="p9.0" />
+  <project name="AICP/kernel_sony_msm8974" path="kernel/sony/msm8974" remote="github" revision="p9.0" />
+  <project name="LineageOS/android_external_sony_boringssl-compat" path="external/sony/boringssl-compat" remote="github" revision="lineage-16.0" />
+  <project name="LineageOS/android_device_sony_common" path="device/sony/common-caf" remote="github" revision="lineage-16.0" />
+  <project name="LineageOS/android_device_qcom_common" path="device/qcom/common" remote="github" revision="lineage-16.0" />
+  <project name="LineageOS/android_hardware_sony_thermanager" path="hardware/sony/thermanager" remote="github" revision="lineage-16.0" />
+  <project name="LineageOS/android_hardware_sony_macaddrsetup" path="hardware/sony/macaddrsetup" remote="github" revision="lineage-16.0" />
+  <project name="LineageOS/android_hardware_sony_timekeep" path="hardware/sony/timekeep" remote="github" revision="lineage-16.0" />
+  <project name="AICP/proprietary_vendor_sony" path="vendor/sony" remote="github" revision="p9.0" />
   <project name="MoKee/android_prebuilts_snapdragon_llvm-3.8" path="prebuilts/snapdragon-llvm/toolchains/llvm-Snapdragon_LLVM_for_Android_3.8/prebuilt/linux-x86_64" remote="github" revision="mkn-mr1" />
 </manifest> 
