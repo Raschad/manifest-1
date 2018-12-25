@@ -6,7 +6,7 @@
   <project name="AICP/kernel_sony_msm8974" path="kernel/sony/msm8974" remote="github" revision="p9.0" />
   <project name="LineageOS/android_external_sony_boringssl-compat" path="external/sony/boringssl-compat" remote="github" revision="lineage-16.0" />
   <project name="LineageOS/android_device_sony_common" path="device/sony/common-caf" remote="github" revision="lineage-16.0" />
-  <project name="LineageOS/android_device_qcom_common" path="device/qcom/common" remote="github" revision="lineage-16.0" />
+  <project name="LineageOS/android_device_qcom_common" path="device/qcom/common" remote="github" revision="lineage-15.1" />
   <project name="LineageOS/android_hardware_sony_thermanager" path="hardware/sony/thermanager" remote="github" revision="lineage-16.0" />
   <project name="LineageOS/android_hardware_sony_macaddrsetup" path="hardware/sony/macaddrsetup" remote="github" revision="lineage-16.0" />
   <project name="LineageOS/android_hardware_sony_timekeep" path="hardware/sony/timekeep" remote="github" revision="lineage-16.0" />
