@@ -1,16 +1,23 @@
 Usage
 =====
 navigate into desired directory
+       
+    mkdir nitrogen
+    cd nitrogen
 
 initialize repo:
 
-    repo init -u https://github.com/AICP/platform_manifest.git -b o8.1
+    repo init -u https://github.com/nitrogen-project/android_manifest.git -b p
 
-build AICP 13.1 (Oreo)
+build Nitrogen OS (PIE)
 ---------------
+Create local_manifests if error
+    
+    mkdir .repo/local_manifests
+
 download manifest: 
 
-    curl https://raw.githubusercontent.com/raschad/manifest-1/nos/honami.xml > ~/nitrogen/.repo/local_manifests/roomservice.xml
+    curl https://raw.githubusercontent.com/raschad/manifest-1/nos_pie/honami.xml > ~/nitrogen/.repo/local_manifests/roomservice.xml
 
 sync repo:
 
@@ -20,22 +27,3 @@ build:
 
     . build/envsetup.sh
     brunch honami
-
-build TWRP
-----------
-download manifest: 
-
-    curl https://raw.githubusercontent.com/Raschad/manifest-1/master/honami_twrp.xml > /your_directory/.repo/local_manifests/honami_twrp.xml
-
-sync repo:
-
-    $ repo sync
-
-build:
-
-    . build/envsetup.sh
-    lunch
-
-choose **aicp_honami-eng** here!
-    
-    mka recoveryimage
