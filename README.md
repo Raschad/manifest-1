@@ -8,9 +8,11 @@ initialize repo:
 
 build Arrow (Oreo)
 ---------------
+    mkdir .repo/local_manifests
+
 download manifest: 
 
-    curl https://raw.githubusercontent.com/raschad/manifest-1/arrow/arrow_manifest.xml > /.repo/local_manifests/roomservice.xml
+    curl https://raw.githubusercontent.com/raschad/manifest-1/arrow/arrow_manifest.xml > ~/arrow/.repo/local_manifests/roomservice.xml
 
 sync repo:
 
