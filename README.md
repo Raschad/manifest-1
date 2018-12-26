@@ -2,12 +2,12 @@ Usage
 =====
 navigate into desired directory
     
-    mkdir pixys
-    cd pixys
+    mkdir pixel
+    cd pixel
     
 initialize repo:
 
-    repo init -u https://github.com/PixysOS/manifest -b oreo
+    repo init -u https://github.com/PixelExperience/manifest -b oreo-mr1
 
 build Pixys (Oreo)
 ---------------
@@ -15,7 +15,7 @@ build Pixys (Oreo)
 
 download manifest: 
 
-    curl https://raw.githubusercontent.com/raschad/manifest-1/pixys/pixys_manifest.xml > ~/pixys/.repo/local_manifests/roomservice.xml
+    curl https://raw.githubusercontent.com/raschad/manifest-1/pixel/pixel_manifest.xml > ~/pixel/.repo/local_manifests/roomservice.xml
 
 sync repo:
 
