@@ -2,20 +2,20 @@ Usage
 =====
 navigate into desired directory
     
-    mkdir pixys
-    cd pixys
+    mkdir du
+    cd du
     
 initialize repo:
 
-    repo init -u https://github.com/PixysOS/manifest -b oreo
+    repo init -u https://github.com/DirtyUnicorns/android_manifest -b o8x-caf
 
-build Pixys (Oreo)
+build Dirty Unicorns (Oreo)
 ---------------
     mkdir .repo/local_manifests
 
 download manifest: 
 
-    curl https://raw.githubusercontent.com/raschad/manifest-1/pixys/pixys_manifest.xml > ~/pixys/.repo/local_manifests/roomservice.xml
+    curl https://raw.githubusercontent.com/raschad/manifest-1/du-oreo/du_manifest.xml > ~/du/.repo/local_manifests/roomservice.xml
 
 sync repo:
 
