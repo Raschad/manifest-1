@@ -11,4 +11,6 @@
   <project name="omnirom/android_hardware_sony_macaddrsetup" path="hardware/sony/macaddrsetup" remote="github" revision="android-8.1" />
   <project name="omnirom/android_hardware_sony_timekeep" path="hardware/sony/timekeep" remote="github" revision="android-8.1" />
   <project name="AICP/proprietary_vendor_sony" path="vendor/sony" remote="github" revision="o8.1" />
+  <project name="LineageOS/android_external_ant-wireless_antradio-library" path="external/ant-wireless/antradio-library" remote="github" revision="lineage-15.1" />
+  <project name="LineageOS/android_system_tools_dtbtool" path="system/tools/dtbtool" remote="github" revision="lineage-15.1" />
 </manifest> 
