@@ -15,7 +15,7 @@ build AICP 14.0 (PIE)
 
 download manifest: 
 
-    curl https://raw.githubusercontent.com/raschad/manifest-1/aicp-pie/aicp_manifest.xml > ~/aicp/.repo/local_manifests/aex_manifest.xml
+    curl https://raw.githubusercontent.com/raschad/manifest-1/aicp-pie/aicp_manifest.xml > ~/aicp/.repo/local_manifests/roomservice.xml
 
 sync repo:
 
