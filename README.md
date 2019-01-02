@@ -9,7 +9,7 @@ initialize repo:
 
     repo init -u https://github.com/Havoc-OS/android_manifest.git -b pie
 
-build Aosp Extended (Pie)
+build Havoc OS (Pie)
 ---------------
     mkdir .repo/local_manifests
     
