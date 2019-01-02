@@ -2,12 +2,12 @@ Usage
 =====
 navigate into desired directory
     
-    mkdir aosp
-    cd aosp
+    mkdir havoc
+    cd havoc
     
 initialize repo:
 
-    repo init -u git://github.com/AospExtended/manifest.git -b 9.x
+    repo init -u https://github.com/Havoc-OS/android_manifest.git -b pie
 
 build Aosp Extended (Pie)
 ---------------
@@ -15,7 +15,7 @@ build Aosp Extended (Pie)
     
 download manifest: 
 
-    curl https://raw.githubusercontent.com/raschad/manifest-1/aex-pie/aex_manifest.xml > ~/aosp/.repo/local_manifests/roomservice.xml
+    curl https://raw.githubusercontent.com/raschad/manifest-1/havoc-pie/havoc_manifest.xml > ~/havoc/.repo/local_manifests/roomservice.xml
 
 sync repo:
 
