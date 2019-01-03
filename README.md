@@ -2,24 +2,24 @@ Usage
 =====
 navigate into desired directory
     
-    mkdir aosp
-    cd aosp
+    mkdir superior
+    cd superior
     
 initialize repo:
 
-    repo init -u git://github.com/AospExtended/manifest.git -b 9.x
+    repo init -u git://github.com/SuperiorOS/manifest.git -b pie
 
-build Aosp Extended (Pie)
+build Superior OS (Pie)
 ---------------
     mkdir .repo/local_manifests
     
 download manifest: 
 
-    curl https://raw.githubusercontent.com/raschad/manifest-1/aex-pie/aex_manifest.xml > ~/aosp/.repo/local_manifests/roomservice.xml
+    curl https://raw.githubusercontent.com/raschad/manifest-1/superior-pie/superior_manifest.xml > ~/superior/.repo/local_manifests/roomservice.xml
 
 sync repo:
 
-    repo sync
+    repo sync -c -j32 --force-sync --no-clone-bundle --no-tags
 
 build:
 
