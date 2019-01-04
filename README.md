@@ -2,20 +2,20 @@ Usage
 =====
 navigate into desired directory
     
-    mkdir superior
-    cd superior
+    mkdir dot
+    cd dot
     
 initialize repo:
 
-    repo init -u git://github.com/SuperiorOS/manifest.git -b pie
+    repo init -u git://github.com/DotOS/manifest.git -b dot-p
 
-build Superior OS (Pie)
+build DOT OS (Pie)
 ---------------
     mkdir .repo/local_manifests
     
 download manifest: 
 
-    curl https://raw.githubusercontent.com/raschad/manifest-1/superior-pie/superior_manifest.xml > ~/superior/.repo/local_manifests/roomservice.xml
+    curl https://raw.githubusercontent.com/raschad/manifest-1/dot-9/dot_manifest.xml > ~/dot/.repo/local_manifests/roomservice.xml
 
 sync repo:
 
