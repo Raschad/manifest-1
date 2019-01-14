@@ -24,4 +24,5 @@ sync repo:
 build:
 
     . build/envsetup.sh
-    brunch honami
+    lunch
+    mka aex -j4
