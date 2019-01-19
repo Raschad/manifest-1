@@ -7,15 +7,15 @@ navigate into desired directory
     
 initialize repo:
 
-    repo init -u git://github.com/AospExtended/manifest.git -b 9.x
+    repo init -u git://github.com/crdroidandroid/android.git -b 9.0
 
-build Aosp Extended (Pie)
+build CrDroid (Pie)
 ---------------
     mkdir .repo/local_manifests
     
 download manifest: 
 
-    curl https://raw.githubusercontent.com/raschad/manifest-1/aex-pie/aex_manifest.xml > ~/aosp/.repo/local_manifests/roomservice.xml
+    curl https://raw.githubusercontent.com/raschad/manifest-1/cr-pie/roomservice.xml > ~/aosp/.repo/local_manifests/roomservice.xml
 
 sync repo:
 
@@ -24,5 +24,4 @@ sync repo:
 build:
 
     . build/envsetup.sh
-    lunch
-    mka aex -j4
+    brunch honami
