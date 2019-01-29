@@ -2,12 +2,12 @@ Usage
 =====
 navigate into desired directory
     
-    mkdir rr
-    cd rr
+    mkdir pixel
+    cd pixel
     
 initialize repo:
 
-    repo init -u https://github.com/ResurrectionRemix/platform_manifest.git -b pie
+    repo init -u https://github.com/PixelExperience/manifest -b pie
 
 
 Local manifest
@@ -17,17 +17,14 @@ Local manifest
     
 download manifest: 
 
-    curl https://raw.githubusercontent.com/raschad/manifest-1/rr-pie/roomservice.xml > ~/rr/.repo/local_manifests/roomservice.xml
+    curl https://raw.githubusercontent.com/raschad/manifest-1/pixel-pie/roomservice.xml > ~/pixel/.repo/local_manifests/roomservice.xml
 
 sync repo:
 
-    repo sync
+    repo sync -c -j32 --force-sync --no-clone-bundle --no-tags
 
-build Resurrection Remix (Pie)
+build Pixel Experience (Pie)
 
     . build/envsetup.sh
-    brunch honami 
-
-or
-
-    brunch amami
+    lunch
+    mka bacon -j4
