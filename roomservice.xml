@@ -11,4 +11,7 @@
   <project name="LineageOS/android_hardware_sony_macaddrsetup" path="hardware/sony/macaddrsetup" remote="github" revision="lineage-16.0" />
   <project name="LineageOS/android_hardware_sony_timekeep" path="hardware/sony/timekeep" remote="github" revision="lineage-16.0" />
   <project name="AICP/proprietary_vendor_sony" path="vendor/sony" remote="github" revision="p9.0" />
+  <project name="Raschad/device_sony_sirius" path="device/sony/sirius" remote="github" revision="rr-pie" />
+  <project name="LineageOS/android_hardware_broadcom_nfc" path="hardware/broadcom/nfc" remote="github" revision="lineage-16.0" />
+  <project name="AICP/hardware_broadcom_fm" path="hardware/broadcom/fm" remote="github" revision="p9.0" />
 </manifest> 
