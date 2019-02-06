@@ -2,12 +2,12 @@ Usage
 =====
 navigate into desired directory
     
-    mkdir pixel
-    cd pixel
+    mkdir aosp
+    cd aosp
     
 initialize repo:
 
-    repo init -u https://github.com/PixelExperience/manifest -b pie
+     repo init -u https://github.com/ArrowOS/android_manifest.git -b arrow-9.x
 
 
 Local manifest
@@ -17,14 +17,13 @@ Local manifest
     
 download manifest: 
 
-    curl https://raw.githubusercontent.com/raschad/manifest-1/pixel-pie/roomservice.xml > ~/pixel/.repo/local_manifests/roomservice.xml
+    curl https://raw.githubusercontent.com/raschad/manifest-1/arrow-pie/roomservice.xml > ~/aosp/.repo/local_manifests/roomservice.xml
 
 sync repo:
 
     repo sync -c -j32 --force-sync --no-clone-bundle --no-tags
 
-build Pixel Experience (Pie)
+build Arrow ROM (Pie)
 
     . build/envsetup.sh
-    lunch
-    mka bacon -j4
+    brunch honami
