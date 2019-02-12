@@ -12,5 +12,21 @@
   <project name="LineageOS/android_hardware_sony_timekeep" path="hardware/sony/timekeep" remote="github" revision="lineage-16.0" />
   <project name="AICP/proprietary_vendor_sony" path="vendor/sony" remote="github" revision="p9.0" />
   <project name="Raschad/device_sony_sirius" path="device/sony/sirius" remote="github" revision="aosp-pie" />
-  <project name="AICP/device_sony_shinano-common" path="device/sony/shinano-common" remote="github" revision="p9.0" />  
+  <project name="AICP/device_sony_shinano-common" path="device/sony/shinano-common" remote="github" revision="p9.0" />
+  
+  <!-- HardWare QCOM -->
+  <project path="hardware/qcom/audio/default" name="android_hardware_qcom_audio" groups="qcom,qcom_audio,pdk-qcom" remote="los" />
+  <project path="hardware/qcom/audio-caf/msm8974" name="android_hardware_qcom_audio" groups="qcom,qcom_audio,pdk-qcom" remote="los" revision="lineage-16.0-caf-8974" />
+  <project path="hardware/qcom/display" name="android_hardware_qcom_display" groups="pdk-qcom,qcom,qcom_display" remote="los" />
+  <project path="hardware/qcom/display-caf/msm8974" name="android_hardware_qcom_display" groups="pdk-qcom,qcom,qcom_display" remote="los" revision="lineage-16.0-caf-8974" />
+  <project path="hardware/qcom/media" name="android_hardware_qcom_media" groups="qcom,pdk-qcom" remote="los"/>
+  <project path="hardware/qcom/media-caf/msm8974" name="android_hardware_qcom_media" groups="qcom,pdk-qcom" remote="los" revision="lineage-16.0-caf-8974" />
+  
+  <!-- Ant Wireless -->
+  <project path="external/ant-wireless/ant_native" name="android_external_ant-wireless_ant_native" remote="los" />
+  <project path="external/ant-wireless/ant_service" name="android_external_ant-wireless_ant_service" remote="los" />
+  <project path="external/ant-wireless/antradio-library" name="android_external_ant-wireless_antradio-library" remote="los" />
+  
+  <project path="external/connectivity" name="android_external_connectivity" groups="qcom,pdk-qcom" remote="los" />
+  <project path="external/libnfc-nxp" name="android_external_libnfc-nxp" remote="los" />
 </manifest> 
