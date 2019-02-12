@@ -14,6 +14,10 @@
   <project name="Raschad/device_sony_sirius" path="device/sony/sirius" remote="github" revision="aosp-pie" />
   <project name="AICP/device_sony_shinano-common" path="device/sony/shinano-common" remote="github" revision="p9.0" />
   
+  <remote  name="los"
+           fetch="https://github.com/LineageOS"
+           revision="refs/heads/lineage-16.0" />
+  
   <!-- HardWare QCOM -->
   <project path="hardware/qcom/audio/default" name="android_hardware_qcom_audio" groups="qcom,qcom_audio,pdk-qcom" remote="los" />
   <project path="hardware/qcom/audio-caf/msm8974" name="android_hardware_qcom_audio" groups="qcom,qcom_audio,pdk-qcom" remote="los" revision="lineage-16.0-caf-8974" />
