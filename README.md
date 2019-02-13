@@ -7,15 +7,15 @@ navigate into desired directory
     
 initialize repo:
 
-    repo init -u git://github.com/AospExtended/manifest.git -b 9.x
+    repo init -u git://github.com/AOSiP/platform_manifest.git -b pie
 
-build Aosp Extended (Pie)
+build AOSIP (Pie)
 ---------------
     mkdir .repo/local_manifests
     
 download manifest: 
 
-    curl https://raw.githubusercontent.com/raschad/manifest-1/aex-pie/aex_manifest.xml > ~/aosp/.repo/local_manifests/roomservice.xml
+    curl https://raw.githubusercontent.com/raschad/manifest-1/aosip-pie/roomservice.xml > ~/aosp/.repo/local_manifests/roomservice.xml
 
 sync repo:
 
@@ -25,4 +25,4 @@ build:
 
     . build/envsetup.sh
     lunch
-    mka aex -j4
+    time mka kronic
