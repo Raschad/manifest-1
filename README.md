@@ -7,22 +7,22 @@ navigate into desired directory
     
 initialize repo:
 
-    repo init -u git://github.com/AOSiP/platform_manifest.git -b pie
+    repo init -u git://github.com/ancient-rom/manifest.git -b pie
 
-build AOSIP (Pie)
+build Ancient-ROM (Pie)
 ---------------
     mkdir .repo/local_manifests
     
 download manifest: 
 
-    curl https://raw.githubusercontent.com/raschad/manifest-1/aosip-pie/roomservice.xml > ~/aosp/.repo/local_manifests/roomservice.xml
+    curl https://raw.githubusercontent.com/raschad/manifest-1/ancient-pie/roomservice.xml > ~/aosp/.repo/local_manifests/roomservice.xml
 
 sync repo:
 
-    repo sync
+    repo sync --current-branch --no-tags --no-clone-bundle --optimized-fetch --force-broken --force-sync -j32
 
 build:
 
     . build/envsetup.sh
     lunch
-    time mka kronic
+    mka bacon -j4
