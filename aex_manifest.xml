@@ -2,7 +2,7 @@
 <manifest>
   <project name="Raschad/device_sony_honami" path="device/sony/honami" remote="github" revision="aosp-pie" />
   <project name="Raschad/device_sony_amami" path="device/sony/amami" remote="github" revision="aosp-pie" />
-  <project name="AICP/device_sony_rhine-common" path="device/sony/rhine-common" remote="github" revision="p9.0" />
+  <project name="Raschad/device_sony_rhine-common" path="device/sony/rhine-common" remote="github" revision="p9.0" />
   <project name="AICP/device_sony_msm8974-common" path="device/sony/msm8974-common" remote="github" revision="p9.0" />
   <project name="AICP/kernel_sony_msm8974" path="kernel/sony/msm8974" remote="github" revision="p9.0" />
   <project name="CarbonBeta/android_external_sony_boringssl-compat" path="external/sony/boringssl-compat" remote="github" revision="cr-7.0" />
