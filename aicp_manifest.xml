@@ -1,8 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-  <project name="Raschad/device_sony_honami" path="device/sony/honami" remote="github" revision="aicp_pie" />
-  <project name="AICP/device_sony_rhine-common" path="device/sony/rhine-common" remote="github" revision="p9.0" />
-  <project name="AICP/device_sony_msm8974-common" path="device/sony/msm8974-common" remote="github" revision="p9.0" />
+  
+  <remote name="Raschad"
+          fetch="https://github.com/Raschad" />
+  
+  <project name="device_sony_honami" path="device/sony/honami" remote="Raschad" revision="aicp_pie" />
+  <project name="device_sony_rhine-common" path="device/sony/rhine-common" remote="Raschad" revision="p9.0" />
+  <project name="device_sony_msm8974-common" path="device/sony/msm8974-common" remote="Raschad" revision="p9.0" />
   <project name="AICP/kernel_sony_msm8974" path="kernel/sony/msm8974" remote="github" revision="p9.0" />
   <project name="CarbonBeta/android_external_sony_boringssl-compat" path="external/sony/boringssl-compat" remote="github" revision="cr-7.0" />
   <project name="LineageOS/android_device_sony_common" path="device/sony/common-caf" remote="github" revision="lineage-16.0" />
@@ -15,6 +19,6 @@
   <project name="LineageOS/android_hardware_qcom_fm" path="hardware/qcom/fm" remote="github" revision="lineage-16.0" />
   <project name="LineageOS/android_external_ant-wireless_ant_native" path="external/ant-wireless/ant_native" remote="github" revision="lineage-16.0" />
   <project name="LineageOS/android_external_connectivity" path="external/connectivity" remote="github" revision="lineage-16.0" />
-  <project name="Raschad/device_sony_sirius" path="device/sony/sirius" remote="github" revision="aicp-pie" />
-  <project name="AICP/device_sony_shinano-common" path="device/sony/shinano-common" remote="github" revision="p9.0" />  
+  <project name="device_sony_sirius" path="device/sony/sirius" remote="Raschad" revision="aicp-pie" />
+  <project name="device_sony_shinano-common" path="device/sony/shinano-common" remote="Raschad" revision="p9.0" />  
 </manifest> 
