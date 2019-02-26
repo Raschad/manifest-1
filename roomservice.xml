@@ -4,11 +4,11 @@
   <remote name="Raschad"
           fetch="https://github.com/Raschad" />
   
-  <project name="device_sony_honami" path="device/sony/honami" remote="Raschad" revision="rr-pie" />
+  <project name="device_sony_honami" path="device/sony/honami" remote="Raschad" revision="mk-pie" />
   <project name="device_sony_amami" path="device/sony/amami" remote="Raschad" revision="rr-pie" />
   <project name="device_sony_rhine-common" path="device/sony/rhine-common" remote="Raschad" revision="p9.0" />
   <project name="device_sony_msm8974-common" path="device/sony/msm8974-common" remote="Raschad" revision="p9.0" />
-  <project name="AICP/kernel_sony_msm8974" path="kernel/sony/msm8974" remote="github" revision="p9.0" />
+  <project name="kernel_sony_msm8974" path="kernel/sony/msm8974" remote="Raschad" revision="p9.0" />
   <project name="CarbonBeta/android_external_sony_boringssl-compat" path="external/sony/boringssl-compat" remote="github" revision="cr-7.0" />
   <project name="LineageOS/android_device_sony_common" path="device/sony/common-caf" remote="github" revision="lineage-16.0" />
   <project name="LineageOS/android_hardware_sony_thermanager" path="hardware/sony/thermanager" remote="github" revision="lineage-16.0" />
