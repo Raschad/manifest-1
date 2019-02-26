@@ -3,6 +3,9 @@
   
   <remote name="Raschad"
           fetch="https://github.com/Raschad" />
+
+    <remote name="github"
+          fetch="https://github.com" />
   
   <project name="device_sony_honami" path="device/sony/honami" remote="Raschad" revision="mk-pie" />
   <project name="device_sony_amami" path="device/sony/amami" remote="Raschad" revision="rr-pie" />
