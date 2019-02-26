@@ -21,7 +21,7 @@ download manifest:
 
 sync repo:
 
-    repo sync
+    repo sync -c -j32 --force-sync --no-clone-bundle --no-tags
 
 build Mokee (Pie)
 
