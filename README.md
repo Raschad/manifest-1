@@ -2,12 +2,12 @@ Usage
 =====
 navigate into desired directory
     
-    mkdir rr
-    cd rr
+    mkdir mk
+    cd mk
     
 initialize repo:
 
-    repo init -u https://github.com/ResurrectionRemix/platform_manifest.git -b pie
+    repo init -u https://github.com/MoKee/android.git -b mkp
 
 
 Local manifest
@@ -17,17 +17,14 @@ Local manifest
     
 download manifest: 
 
-    curl https://raw.githubusercontent.com/raschad/manifest-1/rr-pie/roomservice.xml > ~/rr/.repo/local_manifests/roomservice.xml
+    curl https://raw.githubusercontent.com/raschad/manifest-1/mk-pie/roomservice.xml > ~/mk/.repo/local_manifests/roomservice.xml
 
 sync repo:
 
     repo sync
 
-build Resurrection Remix (Pie)
+build Mokee (Pie)
 
     . build/envsetup.sh
-    brunch honami 
-
-or
-
-    brunch amami
+    lunch
+    mka bacon
