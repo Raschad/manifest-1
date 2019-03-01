@@ -24,23 +24,9 @@ download manifest:
 
 sync repo:
 
-    $ repo sync
-
-build:
-
-    . build/envsetup.sh
-    brunch honami
-
-
-sync repo:
-
     repo sync -c -j32 --force-sync --no-clone-bundle --no-tags
 
 build:
 
     . build/envsetup.sh
-    lunch
-
-choose **aicp_honami-eng** here!
-    
-    mka recoveryimage
+    brunch honami
