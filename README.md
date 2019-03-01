@@ -31,15 +31,10 @@ build:
     . build/envsetup.sh
     brunch honami
 
-build TWRP
-----------
-download manifest: 
-
-    curl https://raw.githubusercontent.com/Raschad/manifest-1/master/honami_twrp.xml > /your_directory/.repo/local_manifests/honami_twrp.xml
 
 sync repo:
 
-    $ repo sync
+    repo sync -c -j32 --force-sync --no-clone-bundle --no-tags
 
 build:
 
