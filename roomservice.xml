@@ -18,4 +18,6 @@
   <project name="device_sony_sirius" path="device/sony/sirius" remote="Raschad" revision="rr-pie" />
   <project name="CarbonROM/android_device_sony_shinano-common" path="device/sony/shinano-common" remote="github" revision="p9.0" />  
   <project name="AICP/hardware_broadcom_fm" path="hardware/broadcom/fm" remote="github" revision="p9.0" />
+  <remove-project name="packages/apps/FMRadio" />
+  <project name="AICP/packages_apps_FMRadio" path="packages/apps/FMRadio" remote="github" revision="p9.0" />
 </manifest> 
