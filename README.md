@@ -25,3 +25,10 @@ build:
 
     . build/envsetup.sh
     brunch honami
+---------------------------------------------------------------------------------------------------------------------------------------
+For FMRadio
+    
+    sudo nano .repo/manifests/snippets/lineage.xml
+and delete line 39   
+project path="packages/apps/FMRadio" name="LineageOS/android_packages_apps_FMRadio" 
+   
