@@ -31,6 +31,6 @@ build Pixel Experience (Pie)
 ---------------------------------------------------------------------------------------------------------------------------------------
 For FMRadio
     
-    sudo nano .repo/manifests/snippets/lineage.xml
-and delete line 39   
+    sudo nano .repo/manifests/snippets/pixel.xml
+and delete line 
 project path="packages/apps/FMRadio" name="LineageOS/android_packages_apps_FMRadio" 
