@@ -28,3 +28,9 @@ build Pixel Experience (Pie)
     . build/envsetup.sh
     lunch
     mka bacon -j4
+---------------------------------------------------------------------------------------------------------------------------------------
+For FMRadio
+    
+    sudo nano .repo/manifests/snippets/lineage.xml
+and delete line 39   
+project path="packages/apps/FMRadio" name="LineageOS/android_packages_apps_FMRadio" 
