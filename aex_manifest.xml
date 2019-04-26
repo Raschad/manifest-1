@@ -17,4 +17,5 @@
   <project name="omnirom/android_hardware_sony_thermanager" path="hardware/sony/thermanager" remote="github" revision="android-8.1" />
   <project name="LineageOS/android_hardware_sony_macaddrsetup" path="hardware/sony/macaddrsetup" remote="github" revision="lineage-16.0" />
   <project name="LineageOS/android_hardware_sony_timekeep" path="hardware/sony/timekeep" remote="github" revision="lineage-16.0" />
+  <project name="rcstar6696/packages_apps_ancquicksettings" path="packages/apps/ANCQuickSettings" remote="github" revision="cr-6.1" />
 </manifest> 
