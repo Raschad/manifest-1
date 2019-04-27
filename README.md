@@ -1,27 +1,28 @@
-Usage
+AOSP EXTENDED (Android 9.0) and Local manifests for Xperia Z1 (Honami), Xperia Z1 Compact (Amami) and Xperia Z2 (Sirius)
+Repo sync
 =====
-navigate into desired directory
+Navigate into desired directory
     
     mkdir aosp
     cd aosp
     
-initialize repo:
+Initialize repo:
 
     repo init -u git://github.com/AospExtended/manifest.git -b 9.x
 
-build Aosp Extended (Pie)
+Create local_manifests folder
 ---------------
     mkdir .repo/local_manifests
     
-download manifest: 
+Download manifest: 
 
     curl https://raw.githubusercontent.com/raschad/manifest-1/aex-pie/aex_manifest.xml > ~/aosp/.repo/local_manifests/roomservice.xml
 
-sync repo:
+Sync repo:
 
-    repo sync
+    repo sync -j32
 
-build:
+Build:
 
     . build/envsetup.sh
     lunch
