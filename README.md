@@ -1,13 +1,16 @@
+LineageOS
+=====
+
 Usage
 =====
 navigate into desired directory
     
-    mkdir rr
-    cd rr
+    mkdir los
+    cd los
     
 initialize repo:
 
-    repo init -u https://github.com/ResurrectionRemix/platform_manifest.git -b pie
+    repo init -u git://github.com/LineageOS/android.git -b lineage-16.0
 
 
 Local manifest
@@ -17,20 +20,16 @@ Local manifest
     
 download manifest: 
 
-    curl https://raw.githubusercontent.com/raschad/manifest-1/rr-pie/roomservice.xml > ~/rr/.repo/local_manifests/roomservice.xml
+    curl https://raw.githubusercontent.com/raschad/manifest-1/lineage-16.0/roomservice.xml > ~/los/.repo/local_manifests/roomservice.xml
 
 sync repo:
 
-    repo sync
+    repo sync -j 32
 
-build Resurrection Remix (Pie)
+build LineageOS 16.0 (Pie)
 
     . build/envsetup.sh
-    brunch honami 
-
-or
-
-    brunch amami
+    brunch sirius
 
 ---------------------------------------------------------------------------------------------------------------------------------------
 For FMRadio
