@@ -1,41 +1,31 @@
-Usage
+AOSP EXTENDED (Android 8.1) and Local manifests for Xperia Z1 (Honami), Xperia Z1 Compact (Amami) and Xperia Z2 (Sirius)
 =====
-navigate into desired directory
 
-initialize repo:
+Repo sync
+=====
+Navigate into desired directory
+    
+    mkdir aosp
+    cd aosp
+    
+Initialize repo:
 
-    repo init -u https://github.com/AICP/platform_manifest.git -b o8.1
+    repo init -u git://github.com/AospExtended/manifest.git -b 8.1.x
 
-build AICP 13.1 (Oreo)
+Create local_manifests folder
 ---------------
-download manifest: 
+    mkdir .repo/local_manifests
+    
+Download manifest: 
 
-    curl https://raw.githubusercontent.com/raschad/manifest-1/aex2/aex_manifest.xml > /.repo/local_manifests/aex_manifest.xml
+    curl https://raw.githubusercontent.com/raschad/manifest-1/aex2/aex_manifest.xml > ~/aosp/.repo/local_manifests/roomservice.xml
 
-sync repo:
+Sync repo:
 
-    $ repo sync
+    repo sync -j32
 
-build:
-
-    . build/envsetup.sh
-    brunch honami
-
-build TWRP
-----------
-download manifest: 
-
-    curl https://raw.githubusercontent.com/Raschad/manifest-1/master/honami_twrp.xml > /your_directory/.repo/local_manifests/honami_twrp.xml
-
-sync repo:
-
-    $ repo sync
-
-build:
+Build:
 
     . build/envsetup.sh
     lunch
-
-choose **aicp_honami-eng** here!
-    
-    mka recoveryimage
+    mka aex -j4
