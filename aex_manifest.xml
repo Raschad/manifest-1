@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
   <project name="Raschad/device_sony_honami" path="device/sony/honami" remote="github" revision="aosp" />
+  <project name="Raschad/device_sony_sirius" path="device/sony/sirius" remote="github" revision="aosp-oreo" />
   <project name="Raschad/device_sony_rhine-common" path="device/sony/rhine-common" remote="github" revision="o8.1" />
+  <project name="Raschad/device_sony_shinano-common" path="device/sony/shinano-common" remote="github" revision="o8.1" />
   <project name="Raschad/device_sony_msm8974-common" path="device/sony/msm8974-common" remote="github" revision="o8.1" />
   <project name="Raschad/kernel_sony_msm8974" path="kernel/sony/msm8974" remote="github" revision="o8.1" />
   <project name="sonyxperiadev/boringssl-compat" path="external/sony/boringssl-compat" remote="github" revision="master" />
@@ -10,4 +12,5 @@
   <project name="omnirom/android_hardware_sony_macaddrsetup" path="hardware/sony/macaddrsetup" remote="github" revision="android-8.1" />
   <project name="omnirom/android_hardware_sony_timekeep" path="hardware/sony/timekeep" remote="github" revision="android-8.1" />
   <project name="AICP/proprietary_vendor_sony" path="vendor/sony" remote="github" revision="o8.1" />
+  <project name="rcstar6696/packages_apps_ancquicksettings" path="packages/apps/ANCQuickSettings" remote="github" revision="cr-6.1" />
 </manifest> 
