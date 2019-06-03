@@ -7,7 +7,7 @@
   <remote name="AICP"
           fetch="https://github.com/AICP" />  
   
-  <remove-project name="platform/packages/apps/FMRadio" />
+  <remove-project name="packages_apps_FMRadio" />
   
   <project name="device_sony_honami" path="device/sony/honami" remote="Raschad" revision="Pixel-pie" />
   <project name="device_sony_amami" path="device/sony/amami" remote="Raschad" revision="pixel-pie" />
