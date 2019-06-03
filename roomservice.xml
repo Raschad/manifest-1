@@ -12,7 +12,7 @@
   <project name="device_sony_honami" path="device/sony/honami" remote="Raschad" revision="Pixel-pie" />
   <project name="device_sony_amami" path="device/sony/amami" remote="Raschad" revision="pixel-pie" />
   <project name="device_sony_sirius" path="device/sony/sirius" remote="Raschad" revision="pixel-pie" />
-  <project name="device_sony_z3" path="device/sony/z3" remote="Raschad" revision="pixel-pie" />
+  <project name="android_device_sony_z3" path="device/sony/z3" remote="Raschad" revision="pixel-pie" />
   <project name="device_sony_rhine-common" path="device/sony/rhine-common" remote="AICP" revision="p9.0" />
   <project name="android_device_sony_shinano-common" path="device/sony/shinano-common" remote="Raschad" revision="cr-7.0" />  
   <project name="device_sony_msm8974-common" path="device/sony/msm8974-common" remote="AICP" revision="p9.0" />
