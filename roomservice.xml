@@ -4,19 +4,25 @@
   <remote name="Raschad"
           fetch="https://github.com/Raschad" />
   
+  <remote name="AICP"
+          fetch="https://github.com/AICP" />  
+  
+  <remove-project name="platform/packages/apps/FMRadio" />
+  
   <project name="device_sony_honami" path="device/sony/honami" remote="Raschad" revision="Pixel-pie" />
   <project name="device_sony_amami" path="device/sony/amami" remote="Raschad" revision="pixel-pie" />
   <project name="device_sony_sirius" path="device/sony/sirius" remote="Raschad" revision="pixel-pie" />
-  <project name="device_sony_rhine-common" path="device/sony/rhine-common" remote="Raschad" revision="p9.0" />
+  <project name="device_sony_z3" path="device/sony/z3" remote="Raschad" revision="pixel-pie" />
+  <project name="device_sony_rhine-common" path="device/sony/rhine-common" remote="AICP" revision="p9.0" />
   <project name="android_device_sony_shinano-common" path="device/sony/shinano-common" remote="Raschad" revision="cr-7.0" />  
-  <project name="android_device_sony_msm8974-common" path="device/sony/msm8974-common" remote="Raschad" revision="cr-7.0" />
-  <project name="android_kernel_sony_msm8974" path="kernel/sony/msm8974" remote="Raschad" revision="cr-7.0" />
+  <project name="device_sony_msm8974-common" path="device/sony/msm8974-common" remote="AICP" revision="p9.0" />
+  <project name="kernel_sony_msm8974" path="kernel/sony/msm8974" remote="AICP" revision="p9.0" />
   <project name="CarbonROM/android_external_sony_boringssl-compat" path="external/sony/boringssl-compat" remote="github" revision="cr-7.0" />
   <project name="LineageOS/android_device_sony_common" path="device/sony/common-caf" remote="github" revision="lineage-16.0" />
   <project name="omnirom/android_hardware_sony_thermanager" path="hardware/sony/thermanager" remote="github" revision="android-8.1" />
   <project name="LineageOS/android_hardware_sony_macaddrsetup" path="hardware/sony/macaddrsetup" remote="github" revision="lineage-16.0" />
   <project name="LineageOS/android_hardware_sony_timekeep" path="hardware/sony/timekeep" remote="github" revision="lineage-16.0" />
-  <project name="AICP/proprietary_vendor_sony" path="vendor/sony" remote="github" revision="p9.0" />
-  <project name="AICP/hardware_broadcom_fm" path="hardware/broadcom/fm" remote="github" revision="p9.0" />
-  <project name="AICP/packages_apps_FMRadio" path="packages/apps/FMRadio" remote="github" revision="p9.0" />
+  <project name="proprietary_vendor_sony" path="vendor/sony" remote="AICP" revision="p9.0" />
+  <project name="hardware_broadcom_fm" path="hardware/broadcom/fm" remote="AICP" revision="p9.0" />
+  <project name="packages_apps_FMRadio" path="packages/apps/FMRadio" remote="AICP" revision="p9.0" />
 </manifest> 
