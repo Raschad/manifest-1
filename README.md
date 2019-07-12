@@ -1,4 +1,4 @@
-AOSP EXTENDED (Android 9.0) and Local manifests for Xperia Z1 (Honami), Xperia Z1 Compact (Amami) and Xperia Z2 (Sirius)
+AOSP EXTENDED (Android 9.0) and Local manifests for Xperia Z1 (Honami), Xperia Z1 Compact (Amami), Xperia Z2 (Sirius) and Xperia Z3 (Aries)
 =====
 
 Repo sync
