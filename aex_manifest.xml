@@ -12,6 +12,7 @@
   <project name="device_sony_honami" path="device/sony/honami" remote="Raschad" revision="aosp-pie" />
   <project name="device_sony_amami" path="device/sony/amami" remote="Raschad" revision="aosp-pie" />
   <project name="device_sony_sirius" path="device/sony/sirius" remote="Raschad" revision="aosp-pie" />
+  <project name="android_device_sony_z3" path="device/sony/z3" remote="Raschad" revision="aosp-pie" />
   
   <project name="device_sony_rhine-common" path="device/sony/rhine-common" remote="Raschad" revision="pie" />
   <project name="device_sony_shinano-common" path="device/sony/shinano-common" remote="Raschad" revision="p9.0" />  
