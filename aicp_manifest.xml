@@ -22,4 +22,11 @@
   <project name="LineageOS/android_hardware_qcom_fm" path="hardware/qcom/fm" remote="github" revision="lineage-16.0" />
   <project name="LineageOS/android_external_ant-wireless_ant_native" path="external/ant-wireless/ant_native" remote="github" revision="lineage-16.0" />
   <project name="LineageOS/android_external_connectivity" path="external/connectivity" remote="github" revision="lineage-16.0" />
+  
+  <project name="android_device_xiaomi_rosy" path="device/xiaomi/rosy" remote="Raschad" revision="p9.0" />
+  <project name="android_vendor_xiaomi" path="vendor/xiaomi" remote="Raschad" revision="lineage-16.0" />
+  <project name="vendor_xiaomi_MiuiCamera" path="vendor/MiuiCamera" remote="Raschad" revision="pie" />
+  <project name="kernel_xiaomi_rosy" path="kernel/xiaomi/msm8953" remote="Raschad" revision="pie" />
+  <project name="LineageOS/android_packages_resources_devicesettings" path="packages/resources/devicesettings" remote="github" revision="lineage-16.0" />
+ 
 </manifest> 
