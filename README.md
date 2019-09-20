@@ -1,16 +1,16 @@
-AOSP EXTENDED (Android 9.0) and Local manifests for Xperia Z1 (Honami), Xperia Z1 Compact (Amami), Xperia Z2 (Sirius) and Xperia Z3 (Aries)
+LineageOS 17.0 (Android 10.0) and Local manifests for Xperia Z1 (Honami)
 =====
 
 Repo sync
 =====
 Navigate into desired directory
     
-    mkdir aosp
-    cd aosp
+    mkdir los
+    cd los
     
 Initialize repo:
 
-    repo init -u git://github.com/AospExtended/manifest.git -b 9.x
+    repo init -u git://github.com/LineageOS/android.git -b lineage-17.0
 
 Create local_manifests folder
 ---------------
@@ -18,7 +18,7 @@ Create local_manifests folder
     
 Download manifest: 
 
-    curl https://raw.githubusercontent.com/raschad/manifest-1/aex-pie/aex_manifest.xml > ~/aosp/.repo/local_manifests/roomservice.xml
+    curl https://raw.githubusercontent.com/raschad/manifest-1/lineage-17.0/roomservice.xml > ~/los/.repo/local_manifests/roomservice.xml
 
 Sync repo:
 
@@ -27,5 +27,4 @@ Sync repo:
 Build:
 
     . build/envsetup.sh
-    lunch
-    mka aex -j4
+    make honami
